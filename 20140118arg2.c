@@ -22,7 +22,8 @@ char *my_fgets(char *s, int n, FILE *fp)
 }
 
 
-int main(){	
+int main()
+{	
 	char str[NUM];	
 	while(my_fgets(str, 4,stdin)!=NULL){		
 		printf("%s",str);
